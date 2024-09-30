@@ -7,6 +7,5 @@
    :global-exports {devcards-marked DevcardsMarked}}]
  :externs ["devcards/js_libs/highlight.ext.js"
            "devcards/js_libs/marked.ext.js"]
- :npm-deps {"create-react-class" "15.6.3"
-            "react" "16.13.1"
-            "react-dom" "16.13.1"}}
+ :npm-deps {"react" "18.2.0"
+            "react-dom" "18.2.0"}}

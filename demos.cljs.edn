@@ -1,0 +1,10 @@
+{:main "devdemos.start-ui"
+ :devcards true
+ :asset-path "/devcards/js/compiled/out"
+ :output-to "example-resources/public/devcards/js/compiled/devdemos.js"
+ :output-dir "example-resources/public/devcards/js/compiled/out"
+ :recompile-dependents false
+ :preloads [devtools.preload]
+ :optimizations :none
+ :source-map-timestamp true
+ }
