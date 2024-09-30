@@ -522,7 +522,7 @@
                            opts)))))
 
 ;; keep
-(defn- dom-node* [node-fn]
+(defn dom-node* [node-fn]
   (fn [data-atom owner]
      (react/createElement DomComponent
                           #js {:node_fn   node-fn
@@ -815,7 +815,7 @@
                                      (reverse (rest testing-contexts)))
                                 (list [:span {:key -1}(first testing-contexts)])))]))
 
-(defn- test-doc [s]
+(defn test-doc [s]
   (cljs.test/report {:type :test-doc :documentation s}))
 
 (defn- test-renderer [t i]
