@@ -1,8 +1,8 @@
 (ns devdemos.defcard-api
     (:require
      [devcards.core]
-     [om.core :as om :include-macros true]
-     [om.dom :as dom :include-macros true]
+     #_[om.core :as om :include-macros true]
+     #_[om.dom :as dom :include-macros true]
      [reagent.core :as reagent]
      [clojure.string :as string]
      [sablono.core :as sab :include-macros true]

@@ -6,8 +6,6 @@
    [clojure.set :refer [difference union]]
    [sablono.core :as sab :include-macros true]
 
-   [om.core :as om :include-macros true]
-   [om.dom :as dom :include-macros true]
    [cljs.core.async :refer [timeout]]
    [goog.labs.userAgent.device :as device]
    [cljs.test :as t :include-macros true])

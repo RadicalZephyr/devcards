@@ -12,15 +12,11 @@
    [goog.labs.userAgent.device :as device]
    [react :as react]
    [react-dom :as react-dom]
-   [create-react-class :as create-react-class]
    [devcards-syntax-highlighter :as devcards-syntax-highlighter]
    [cljs.core.async :refer [put! chan sliding-buffer timeout <! close! alts!] :as async])
   (:require-macros
    [devcards.core]
    [cljs.core.async.macros :refer [go]]))
-
-;; this is to support om with the latest version of React
-#_(set! (.-createClass (.-React goog.global)) create-react-class)
 
 (goog-define active false)
 (goog-define card-buffer-size 5000)
