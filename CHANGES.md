@@ -22,13 +22,13 @@
 * fixed an edn rendering error caused by MapEntry changes
 * fixed the 1024 buffer limitation, can be configured via `:closure-defines {devcards.core/card-buffer-size 10000}`
 * added tool friendly way to opt-in to devcards via `:closure-defines {devcards.core/active true}`
-* discoverd that `(set! (.-createClass (.-React goog.global)) create-react-class)` is a sweet 
+* discovered that `(set! (.-createClass (.-React goog.global)) create-react-class)` is a sweet
   hack to get `omcljs/om` to work with latest React
 
 ## 0.2.1-7 Some reagent fixes
 
 * Improved Reagent reloading PR #100
-* removed woarnings on duplicate "is" tests PR #101
+* removed warnings on duplicate "is" tests PR #101
 
 ## 0.2.1-6
 
@@ -38,13 +38,13 @@
 
 ## 0.2.1-5 Fixing minor dependency conflicts
 
-* getting rid of dep conflicts 
+* getting rid of dep conflicts
 
 ## 0.2.1-4 Om Next Helpers
 
 * bumping sablono deps
 * Om Next helpers added by @anmonteiro
-* more react warnings killed by @tristanstraub 
+* more react warnings killed by @tristanstraub
 
 ## 0.2.1-3
 
@@ -56,9 +56,9 @@
 ## 0.2.1 React 14
 
 * now depends on React 14
-* fixing the `:watch-atom false` option 
+* fixing the `:watch-atom false` option
 * added the `:actual` output for failing tests
-* allowing the config of default card options 
+* allowing the config of default card options
 
 ## 0.2.0-8 Improved Reagent support
 
@@ -89,4 +89,3 @@ to the card body - thanks to codebeige
 ## 0.2.0-2 First documented release
 
 * Support for `cljs.test` async testing
-
