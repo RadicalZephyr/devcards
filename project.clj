@@ -17,7 +17,7 @@
                                     :target-path]
 
   :scm { :name "git"
-         :url "https://github.com/bhauman/devcards" }
+         :url "https://github.com/RadicalZephyr/devcards" }
 
   :figwheel {:css-dirs ["resources/public/devcards/css"]
              :open-file-command "emacsclient"
