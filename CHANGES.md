@@ -1,3 +1,14 @@
+## 0.3.0 Update to latest React 18.2.0
+
+* Remove Om support to drop the `cljsjs/create-react-class` dependency
+  which no longer works with React 18
+* Update Sablono dependency to 0.2.9-SNAPSHOT that doesn't depend on a
+  specific version of React
+* Switched build from `lein-cljsbuild` to use Figwheel Main
+* Fix some minor issues with stricter privacy checking in newer
+  Clojurescript
+* Fix the `card?` predicate to actually check all cases
+
 ## 0.2.6 Updated for latest React 16.4
 
 * requires `cljsjs/create-react-class` - you may need to exclude this
